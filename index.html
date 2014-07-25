@@ -19,18 +19,18 @@
         <![endif]-->        
     </head>
     <body >
-        <center>
-            <h2>Fuel Gauge prototype</h2>
-            <div id="mydiv"></div>
-            <br>
-            <div ng-controller="GaugeCtrl">
+        <div ng-controller="GaugeCtrl">
+            <center>
+                <h2>Fuel Gauge prototype</h2>
+                <div id="mydiv"></div>
+                <br>
                 <input type="button" ng-click="setLitres(0)" value="0">
                 <input type="button" ng-click="setLitres(45)" value="25">
                 <input type="button" ng-click="setLitres(90)" value="50">
                 <input type="button" ng-click="setLitres(135)" value="75">
                 <input type="button" ng-click="setLitres(180)" value="100">
-            </div>
-        </center>
+            </center>
+        </div>
     
     
     
